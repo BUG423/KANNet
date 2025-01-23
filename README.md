@@ -1,2 +1,10 @@
-# KANNet
-Inertial localization is a crucial positioning solution for constrained environments, such as those involving vision, GPS, or radar. However, existing convolutional neural network (CNN)-based methods for inertial localization exhibit significant limitations when modeling long-term trajectory dependencies. To address this issue, we propose a novel inertial localization network that utilizes the KAN convolution to construct a general backbone. This approach leverages its non-linear learning capability to enhance the modeling of complex trajectories. Additionally, we design an efficient kernel-based self-attention module (EKSA) to capture contextual information along the trajectory, further enhancing the modeling of long-term dependencies. Experimental results on six public datasets demonstrate that the proposed method reduces the absolute trajectory error by 6%-13% relative to existing baseline methods. Furthermore, we provide the cleaned TLIO dataset and experimentally validate the importance of gravity removal for improving inertial localization performance.
+# Title
+ResKACNNet: A Novel Backbone for Inertial Localization with Enhanced Long-Term Trajectory Modeling
+
+## Abstract
+Inertial localization is essential for positioning in environments where vision, GPS, or radar systems are not available. This paper introduces ResKACNNet, a new inertial localization network that overcomes the limitations of existing CNN-based methods in modeling long-term trajectory dependencies. By utilizing ChebyKAN as the backbone and incorporating an efficient kernel-based self-attention module (EKSA), the proposed method effectively captures complex trajectories and contextual information, leading to significant improvements in modeling long-term dependencies. Our experiments on five public datasets demonstrate a reduction in absolute trajectory error by 3.79%-42.32% compared to current baselines. Furthermore, we offer a preprocessed version of the TLIO dataset with gravity compensation, which has been experimentally proven to enhance inertial localization performance.
+
+## Dataset Download
+The dataset used in this research can be downloaded from the following link:
+https://pan.baidu.com/s/1CRPjyIHWFuqjU1rQQrcwCQ?pwd=mjbj
+Extraction Code: mjbj
